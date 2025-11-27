@@ -2,7 +2,7 @@
 
 ## 📊 Project Overview
 
-The goal is to determine the optimal coefficients (weights) that minimize the error between predicted and actual house prices based on specific property features.
+The goal is to determine the optimal coefficients that minimize the error between predicted and actual house prices based on specific property features.
 
 ### The Features
 The model predicts the **Price** based on four independent variables:
@@ -68,4 +68,5 @@ A 2x2 grid showing the marginal effect of each feature on the house price.
 * `requirements.txt`: Python package dependencies.
 * `dataset.csv`: The generated house dataset.
 * `main.ipynb`: The main jupyter notebook.
+
 * `README.md`: Project documentation.
