@@ -2,7 +2,7 @@
 
 ## 📊 Project Overview
 
-The goal is to determine the optimal coefficients that minimize the error between predicted and actual house prices based on specific property features.
+The goal of this project is to determine the optimal coefficients that minimize the error between predicted and actual house prices based on specific property features.
 
 ### The Features
 The model predicts the **Price** based on four independent variables:
@@ -19,6 +19,18 @@ The model predicts the **Price** based on four independent variables:
 ## 🧮 Mathematical Methodology
 
 This project moves beyond standard algebraic solutions by employing **QR Decomposition**, a cornerstone technique in numerical linear algebra. This method is specifically chosen for its numerical stability compared to the standard Normal Equations, which can be prone to rounding errors when the feature matrix is ill-conditioned.
+
+### The Model
+We model the relationship as a linear combination of features:
+
+$$
+y = \theta + \alpha x_1 + \beta x_2 + \gamma x_3 + \delta x_4 + \epsilon
+$$
+
+Our goal is to determine the optimal parameter vector $\mathbf{x} = [\theta, \alpha, \beta, \gamma, \delta]^T$ that minimizes the sum of squared errors:
+
+$$\sum \epsilon^2 = \| \mathbf{b} - \mathbf{A}\mathbf{x} \|^2$$
+
 
 ### 1. Matrix Formulation
 We formulate the regression problem as an overdetermined system of linear equations $A \mathbf{x} = \mathbf{b}$.
@@ -126,7 +138,7 @@ This final step is computationally cheap with $O(n^2)$, making the entire proces
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/mattia-3rne/multiple-linear-regression-via-qr-decomposition.git
+    git clone [https://github.com/mattia-3rne/multiple-linear-regression-via-qr-decomposition.git](https://github.com/mattia-3rne/multiple-linear-regression-via-qr-decomposition.git)
     ```
 
 2.  **Install dependencies**:
@@ -147,7 +159,3 @@ This final step is computationally cheap with $O(n^2)$, making the entire proces
 * `dataset_generation.py`: Script to generate the data.
 * `requirements.txt`: Python package dependencies.
 * `README.md`: Project documentation.
-
-
-
-
