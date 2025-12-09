@@ -138,7 +138,7 @@ This final step is computationally cheap with $O(n^2)$, making the entire proces
 
 1.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/mattia-3rne/multiple-linear-regression-via-qr-decomposition.git](https://github.com/mattia-3rne/multiple-linear-regression-via-qr-decomposition.git)
+    git clone https://github.com/mattia-3rne/multiple-linear-regression-via-qr-decomposition.git
     ```
 
 2.  **Install dependencies**:
