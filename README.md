@@ -1,6 +1,6 @@
 # Multiple Linear Regression via QR Decomposition
 
-## 📊 Project Overview
+## Project Overview
 
 The goal of this project is to determine the optimal coefficients that minimize the error between predicted and actual house prices based on specific property features.
 
@@ -16,7 +16,7 @@ The model predicts the **Price** based on four independent variables:
 
 ---
 
-## 🧮 Mathematical Methodology
+## Mathematical Methodology
 
 This project moves beyond standard algebraic solutions by employing **QR Decomposition**, a cornerstone technique in numerical linear algebra. This method is specifically chosen for its numerical stability compared to the standard Normal Equations, which can be prone to rounding errors when the feature matrix is ill-conditioned.
 
@@ -128,7 +128,7 @@ This final step is computationally cheap with $O(n^2)$, making the entire proces
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * Python 3.8+
@@ -153,9 +153,10 @@ This final step is computationally cheap with $O(n^2)$, making the entire proces
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 * `main.ipynb`: The main jupyter notebook.
 * `dataset_generation.py`: Script to generate the data.
 * `requirements.txt`: Python package dependencies.
+
 * `README.md`: Project documentation.
